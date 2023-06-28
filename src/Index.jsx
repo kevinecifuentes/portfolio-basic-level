@@ -6,7 +6,7 @@ import Principles from './components/Principles'
 import Skillset from './components/Skillset'
 import Works from './components/Works'
 import Nav from './components/Nav'
-// import Contact from './components/Contact'
+import Contact from './components/Contact'
 import ContactMe from './components/ContactMe'
 
 const Index = () => {
@@ -19,8 +19,8 @@ const Index = () => {
       <Skillset />
       <Works />
       <Lenguages />
-      {/* <Contact /> */}
-      <ContactMe />
+      <Contact />
+      {/* <ContactMe /> */}
       <Footer />
     </section>
   )

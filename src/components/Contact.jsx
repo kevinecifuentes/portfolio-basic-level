@@ -48,7 +48,7 @@ const Contact = () => {
             <label>Message <span className='text-red-500'>*</span></label>
             <textarea required name="message" className='bg-[#181823] p-4 outline-none mt-4 rounded-xl w-full' />
           </div>
-          <button className='bg-[#5221e6] p-3 mx-auto rounded-lg hover:bg-purple-500'>
+          <button className='bg-[#7066e0] p-3 mx-auto rounded-lg hover:bg-[#5221e6] duration-200 ease-in'>
             <input type="submit" value="Send" />
           </button>
 

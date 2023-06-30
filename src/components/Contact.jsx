@@ -25,10 +25,10 @@ const Contact = () => {
   };
 
   return (
-    <section className="bg-black p-12 md:px-16 lg:grid lg:grid-cols-2 py-16 lg:gap-8 lg:px-24">
+    <section id='contact' className="bg-black p-12 md:px-16 lg:grid lg:grid-cols-2 py-16 lg:gap-8 lg:px-24">
 
       {/* left section  */}
-      <article id='contact' className='my-auto mx-auto'>
+      <article className='my-auto mx-auto'>
         <h2 className="text-4xl font-bold">Let's talk business</h2>
         <p className="pt-8 text-gray-400">Now that you know a lot about me, let me if you're interested to work with me.</p>
       </article>

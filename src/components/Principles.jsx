@@ -1,6 +1,6 @@
 const Principles = () => {
   return (
-    <section id="principles" className="bg-[#FFF3E4] text-black lg:grid lg:grid-cols-2">
+    <section className="bg-[#FFF3E4] text-black lg:grid lg:grid-cols-2">
       <section className="p-6 lg:px-10 lg:grid lg:my-auto">
         <div className="pt-10">
           <h2 className="text-2xl lg:text-3xl font-bold text-center">Philosophy and Values.</h2>

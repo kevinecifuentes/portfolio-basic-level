@@ -16,19 +16,19 @@ const Footer = () => {
         <section className="flex justify-center text-center pt-8 md:pt-0">
           <article className="">
             <ol className="list-none grid gap-4">
-              <li className="hover:-translate-y-1 duration-150 ease-in">
+              <li className="md:hover:-translate-y-1 duration-150 ease-in">
                 <a href="#">Home</a>
               </li>
-              <li className="hover:-translate-y-1 duration-150 ease-in">
+              <li className="md:hover:-translate-y-1 duration-150 ease-in">
                 <a href="#about">About</a>
               </li>
-              <li className="hover:-translate-y-1 duration-150 ease-in">
+              <li className="md:hover:-translate-y-1 duration-150 ease-in">
                 <a href="#principles">Principles</a>
               </li>
-              <li className="hover:-translate-y-1 duration-150 ease-in">
+              <li className="md:hover:-translate-y-1 duration-150 ease-in">
                 <a href="#works">Works</a>
               </li>
-              <li className="hover:-translate-y-1 duration-150 ease-in">
+              <li className="md:hover:-translate-y-1 duration-150 ease-in">
                 <a className="md:hover:text-gray-300 " href="#contact">Contact</a>
               </li>
             </ol>

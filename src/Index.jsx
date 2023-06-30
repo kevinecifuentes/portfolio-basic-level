@@ -1,4 +1,3 @@
-import Experience from './components/Experience'
 import Footer from './components/Footer'
 import Lenguages from './components/Lenguages'
 import Hero from './components/Hero'
@@ -7,13 +6,14 @@ import Skillset from './components/Skillset'
 import Works from './components/Works'
 import Nav from './components/Nav'
 import Contact from './components/Contact'
+import Hobbies from './components/Hobbies'
 
 const Index = () => {
   return (
     <section className="max-w-[1700px] mx-auto">
       <Nav />
       <Hero />
-      <Experience />
+      <Hobbies />
       <Principles />
       <Skillset />
       <Works />

@@ -5,28 +5,28 @@ const Works = () => {
       {/* left section  */}
       <section>
         <h4 className="text-gray-400">MY PROJECTS</h4>
-        <h2 className="text-2xl mt-2 md:mt-6 md:text-5xl font-semibold">Work that I've done for the past 1 year.</h2>
+        <h2 className="text-2xl mt-2 md:mt-6 md:text-5xl font-semibold">Works that I have done.</h2>
 
         <article className="bg-[#181823] mt-8 md:mt-14">
           <div>
-            <img className="max-w-full" src="/images/Rectangle.png" alt="" />
+            <img className="max-w-full" src="/images/pokeApiMokcup.png" alt="" />
           </div>
 
           <div className="p-6">
-            <h3 className="text-base md:text-2xl md:text-center lg:text-base lg:text-start">Restaurant website design</h3>
-            <p className="pt-4 text-sm text-gray-400 md:text-lg md:text-center lg:text-sm lg:text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nihil quaerat dolores. Pariatur quas illo voluptate provident veritatis omnis.</p>
+            <h3 className="text-lg md:text-3xl md:text-center lg:text-base lg:text-start">Poke Api</h3>
+            <p className="pt-4 md:pt-8 text-sm text-gray-300 md:text-xl text-justify lg:text-sm lg:text-start">An app with http request incorpored from an Api. With input, search filters, local storage, dark mode. The styles are made with Tailwind.</p>
           </div>
         </article>
 
         <article className="mt-8 bg-[#181823]">
 
           <div>
-            <img src="/images/Rectangle.png" alt="" />
+            <img src="/images/rickAndMortyMockup.jpg" alt="" />
           </div>
 
           <div className="p-6">
-            <h3 className="text-base md:text-2xl md:text-center lg:text-base lg:text-start">Restaurant website design</h3>
-            <p className="pt-4 text-sm text-gray-400 md:text-lg md:text-center lg:text-sm lg:text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nihil quaerat dolores. Pariatur quas illo voluptate provident veritatis omnis.</p>
+            <h3 className="text-lg md:text-3xl md:text-center lg:text-base lg:text-start">Rick and Morty app</h3>
+            <p className="pt-4 md:pt-8 text-sm text-gray-300 md:text-xl text-justify lg:text-sm lg:text-start">A page with request from axios library. It show us all characters of all dimensions. With a controlled input.</p>
           </div>
 
         </article>
@@ -37,26 +37,26 @@ const Works = () => {
       <section>
         <article className="bg-[#181823] mt-6 lg:mt-0">
           <div>
-            <img src="/images/Rectangle.png" alt="" />
+            <img src="/images/WeatherAppMockup.png" alt="" />
           </div>
           <div className="p-6">
-            <h3 className="text-base md:text-2xl md:text-center lg:text-base lg:text-start">Restaurant website design</h3>
-            <p className="pt-4 text-sm text-gray-400 md:text-lg md:text-center lg:text-sm lg:text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nihil quaerat dolores. Pariatur quas illo voluptate provident veritatis omnis.</p>
+            <h3 className="text-lg md:text-3xl md:text-center lg:text-base lg:text-start">Weather App</h3>
+            <p className="pt-4 md:pt-8 text-sm text-gray-300 md:text-xl text-justify lg:text-sm lg:text-start">This mini app, give you the weather of the site that you indicate it. And it change the image acording to the weather.</p>
           </div>
         </article>
 
         <article className="mt-6 bg-[#181823]">
           <div>
-            <img src="/images/Rectangle.png" alt="" />
+            <img src="/images/usersMockup.png" alt="" />
           </div>
           <div className="p-6">
-            <h3 className="text-base md:text-2xl md:text-center lg:text-base lg:text-start">Restaurant website design</h3>
-            <p className="pt-4 text-sm text-gray-400 md:text-lg md:text-center lg:text-sm lg:text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nihil quaerat dolores. Pariatur quas illo voluptate provident veritatis omnis.</p>
+            <h3 className="text-lg md:text-3xl md:text-center lg:text-base lg:text-start">Users input</h3>
+            <p className="pt-4 md:pt-8 text-sm text-gray-300 md:text-xl text-justify lg:text-sm lg:text-start">This input, has the delete, update and create request. With conditional rendering, acording to the info that the user puts in the input.</p>
           </div>
         </article>
 
         <div className="flex justify-center mt-10 lg:mt-20">
-          <a href="https://github.com/kevinecifuentes" className="p-6 border-2 border-[#7066e0] md:hover:border-[#5221e6] duration-200 ease-in">VIEW ALL PROJECTS</a>
+          <a target="_blank" href="https://github.com/kevinecifuentes" className="p-6 border-2 border-[#7066e0] md:hover:border-[#5221e6] duration-200 ease-in">VIEW ALL PROJECTS</a>
         </div>
       </section>
 

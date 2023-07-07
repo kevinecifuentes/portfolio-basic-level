@@ -1,10 +1,10 @@
 const Skillset = () => {
   return (
-    <section className="px-8 pt-10 bg-black md:flex md:gap-8 lg:gap-0 md:px-16 lg:px-20 text-justify justify-center">
+    <section id="skillset" className="px-8 pt-10 bg-black md:flex md:gap-8 lg:gap-0 md:px-16 lg:px-20 text-start justify-center">
 
       <section className="md:w-[370px] lg:w-[330px] xl:w-[700px] my-auto lg:p-10">
         <h3 className="font-bold text-3xl">Skillset</h3>
-        <p className="text-[#8491A0] mt-6">I've skills in diferent areas of programming. Anything you want, i can do. I'm here to make whatever you have in mind come true. I know about frameworks, some languages like JS, version controllers and some design tools too. </p>
+        <p className="text-[#8491A0] mt-6">I've skills in diferent areas of programming. Anything you want, i can do. I'm here to make whatever you have in mind come true.</p>
       </section>
 
       <section className="grid grid-cols-2 justify-items-center pt-6 gap-6 md:gap-14 md:grid-cols-[repeat(2,_10rem)] lg:grid-cols-[repeat(2,_15rem)] xl:grid-cols-2 w-full">

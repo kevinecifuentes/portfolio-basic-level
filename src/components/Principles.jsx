@@ -12,10 +12,10 @@ const Principles = () => {
           </p>
 
           <div className="mt-24 flex items-center gap-3 md:justify-center lg:justify-start lg:mt-20">
-            <a href="">
+            <a href="https://www.linkedin.com/in/kevin-cifuentes-786554189/" target="_blank">
               <h3 className="border-b-2 border-black">Check my linkedin</h3>
             </a>
-            <a href="">
+            <a href="https://www.linkedin.com/in/kevin-cifuentes-786554189/" target="_blank">
               <i className="bx bxl-linkedin-square text-xl text-blue-600"></i>
             </a>
           </div>

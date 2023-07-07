@@ -13,11 +13,11 @@ const Index = () => {
     <section className="max-w-[1700px] mx-auto">
       <Nav />
       <Hero />
-      <Hobbies />
+      {/* <Hobbies /> */}
+      <Lenguages />
       <Principles />
       <Skillset />
       <Works />
-      <Lenguages />
       <Contact />
       <Footer />
     </section>

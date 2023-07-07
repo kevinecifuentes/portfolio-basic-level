@@ -1,14 +1,14 @@
 const Footer = () => {
   return (
     <footer className="bg-[#181823] py-14">
-      <section className="grid md:grid-cols-2 plac">
+      <section className="grid md:grid-cols-2 ">
         {/* left section  */}
-        <section className="md:pl-10 mx-auto my-auto">
+        <section className="md:pl-10 mx-auto my-auto lg:text-2xl">
           <h3>Kevin Cifuentes</h3>
-          <div className="flex gap-3 pt-2 items-center justify-center text-xl md:text-2xl">
-            <span><i className="bx bxl-linkedin-square text-xl text-blue-600"></i></span>
-            <span><i className='bx bxl-github'></i></span>
-            <span><i className='text-green-400 bx bxl-netlify'></i></span>
+          <div className="flex gap-3 pt-2 items-center justify-center text-xl md:text-2xl lg:text-4xl">
+            <a target="_blank" href="https://www.linkedin.com/in/kevin-cifuentes-786554189/"><i className="bx bxl-linkedin-square text-blue-600 lg:hover:translate-y-[2px] ease-in duration-150"></i></a>
+            <a target="_blank" href="https://github.com/kevinecifuentes"><i className='bx bxl-github lg:hover:translate-y-[2px] ease-in duration-150'></i></a>
+            <a target="_blank" href="https://app.netlify.com/teams/kevinecifuentes/overview"><i className='text-green-400 bx bxl-netlify lg:hover:translate-y-[2px] ease-in duration-150'></i></a>
           </div>
         </section>
 

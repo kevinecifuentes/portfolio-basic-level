@@ -30,7 +30,15 @@ const Contact = () => {
       {/* left section  */}
       <article className='my-auto mx-auto'>
         <h2 className="text-4xl font-bold">Let's talk business</h2>
-        <p className="pt-8 text-gray-400">Now that you know a lot about me, let me if you're interested to work with me.</p>
+        <p className="pt-8 text-gray-400">If you want contact with me or have any question, let me now and write me in the input!
+        </p>
+
+        <p className='mt-14 text-center text-gray-400'>Or contact with me in WhatsApp.</p>
+
+        <div className='flex justify-center pt-10 gap-1'>
+          <a target='_blank' href='https://api.whatsapp.com/send?phone=573507189563' className='text-[#25d366] text-center text-5xl md:hover:text-green-600 ease-in duration-150'><i className='bx bxl-whatsapp'></i></a>
+        </div>
+
       </article>
       <section className='text-white md:pt-10 lg:pt-0'>
 

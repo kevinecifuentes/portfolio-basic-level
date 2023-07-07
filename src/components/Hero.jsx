@@ -26,8 +26,8 @@ const NavbarAndHero = () => {
             Hello! Welcome to my portfolio. I'm 20 years old and have kwnowings in frontEnd development with Java Script, ReactJS and Tailwind. Here, you can find my projects.
           </p>
 
-          <div className='mx-auto'>
-            <a className='p-3 bg-[#7066e0] rounded-xl w-60 md:hover:bg-[#5221e6] duration-200 ease-in' href="/CV-Kevin.pdf" download='CV-Kevin.pdf'><span>Download CV</span> <span><i className='bx bxs-spreadsheet text-sm pl-1'></i></span></a>
+          <div className='mx-auto pb-4'>
+            <a className='py-3 px-0 w-36 bg-[#7066e0] rounded-xl md:hover:bg-[#5221e6] duration-200 ease-in flex justify-center gap-1' href="/CV-Kevin.pdf" download='CV-Kevin.pdf'><span>Download CV</span> <span className='pt-[1px]'><i className='bx bxs-spreadsheet text-gray-300 text-xs md:text-sm'></i></span></a>
           </div>
         </div>
       </article>

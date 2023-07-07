@@ -14,7 +14,16 @@ const Works = () => {
 
           <div className="p-6">
             <h3 className="text-lg md:text-3xl md:text-center lg:text-base lg:text-start">Poke Api</h3>
-            <p className="pt-4 text-sm text-gray-300 md:text-xl text-justify lg:text-sm lg:text-start">An app with http request incorpored from an Api. With input, search filters, local storage, dark mode. The styles are made with Tailwind.</p>
+            <p className="pt-4 text-sm text-gray-300 md:text-xl text-justify lg:text-sm lg:text-start">An app with http request from an Api incorpored. With input, search filters, local storage, dark mode. The styles are made with Tailwind.</p>
+          </div>
+
+          <div className="flex items-center gap-3 justify-center pb-6">
+            <a href="https://github.com/ErickCoder/poke-api.git" target="_blank">
+              <h3 className="border-b-2 border-white text-gray-300 pb-1 hover:lg:text-gray-400 hover:lg:border-gray-400 duration-150 ease-in">GitHub Repository</h3>
+            </a>
+            <a href="https://github.com/ErickCoder/poke-api.git" target="_blank">
+              <i className="bx bxl-github text-xl text-white hover:lg:text-gray-400 duration-150 ease-in"></i>
+            </a>
           </div>
         </article>
 
@@ -26,7 +35,16 @@ const Works = () => {
 
           <div className="p-6">
             <h3 className="text-lg md:text-3xl md:text-center lg:text-base lg:text-start">Rick and Morty app</h3>
-            <p className="pt-4 text-sm text-gray-300 md:text-xl text-justify lg:text-sm lg:text-start">A page with request from axios library. It show us all characters of all dimensions. With a controlled input.</p>
+            <p className="pt-4 text-sm text-gray-300 md:text-xl text-justify lg:text-sm lg:text-start">A page with request from axios library. It shows us all characters of all dimensions. With a controlled input.</p>
+          </div>
+
+          <div className="flex items-center gap-3 justify-center pb-6">
+            <a href="https://github.com/kevinecifuentes/rick-and-morty.git" target="_blank">
+              <h3 className="border-b-2 border-white text-gray-300 pb-1 hover:lg:text-gray-400 hover:lg:border-gray-400 duration-150 ease-in">GitHub Repository</h3>
+            </a>
+            <a href="https://github.com/kevinecifuentes/rick-and-morty.git" target="_blank">
+              <i className="bx bxl-github text-xl text-white hover:lg:text-gray-400 duration-150 ease-in"></i>
+            </a>
           </div>
 
         </article>
@@ -41,7 +59,16 @@ const Works = () => {
           </div>
           <div className="p-6">
             <h3 className="text-lg md:text-3xl md:text-center lg:text-base lg:text-start">Weather App</h3>
-            <p className="pt-4 text-sm text-gray-300 md:text-xl text-justify lg:text-sm lg:text-start">This mini app, give you the weather of the site that you indicate it. And it change the image acording to the weather.</p>
+            <p className="pt-4 text-sm text-gray-300 md:text-xl text-justify lg:text-sm lg:text-start">This mini app, gives you the weather of the site that you indicate it. And it change the image acording to the weather.</p>
+          </div>
+
+          <div className="flex items-center gap-3 justify-center pb-6">
+            <a href="https://github.com/kevinecifuentes/weather-app.git" target="_blank">
+              <h3 className="border-b-2 border-white text-gray-300 pb-1 hover:lg:text-gray-400 hover:lg:border-gray-400 duration-150 ease-in">GitHub Repository</h3>
+            </a>
+            <a href="https://github.com/kevinecifuentes/weather-app.git" target="_blank">
+              <i className="bx bxl-github text-xl text-white hover:lg:text-gray-400 duration-150 ease-in"></i>
+            </a>
           </div>
         </article>
 
@@ -52,6 +79,15 @@ const Works = () => {
           <div className="p-6">
             <h3 className="text-lg md:text-3xl md:text-center lg:text-base lg:text-start">Users input</h3>
             <p className="pt-4 text-sm text-gray-300 md:text-xl text-justify lg:text-sm lg:text-start">This input, has the delete, update and create request. With conditional rendering, acording to the info that the user puts in the input.</p>
+          </div>
+
+          <div className="flex items-center gap-3 justify-center pb-6">
+            <a href="https://github.com/JesusBernal2020/registration-users-app.git" target="_blank">
+              <h3 className="border-b-2 border-white text-gray-300 pb-1 hover:lg:text-gray-400 hover:lg:border-gray-400 duration-150 ease-in">GitHub Repository</h3>
+            </a>
+            <a href="https://github.com/JesusBernal2020/registration-users-app.git" target="_blank">
+              <i className="bx bxl-github text-xl text-white hover:lg:text-gray-400 duration-150 ease-in"></i>
+            </a>
           </div>
         </article>
 

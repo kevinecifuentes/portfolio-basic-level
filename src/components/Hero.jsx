@@ -15,7 +15,7 @@ const Hero = () => {
         <div className="flex flex-col pt-7 md:p-11 lg:p-14 xl:p-16 min-[1600px]:p-4 gap-5 p-5 md:justify-center md:z-10">
           <h1 className="text-2xl text-center md:text-start font-bold md:text-4xl lg:text-4xl xl:text-5xl min-[1600px]:text-6xl min-[1600px]:text-center float-left relative ">
             I'm Kevin Cifuentes.
-            <br />A fronted developer{" "}
+            <br />A full stack developer{" "}
             <span className="text-gray-400">based in <span className="text-yellow-400">Co</span><span className="text-blue-600">lom</span><span className="text-red-600">bia.</span></span>
             <span className="spanContainer">
               &#160;

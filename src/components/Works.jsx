@@ -92,7 +92,7 @@ const Works = () => {
         </article>
 
         <div className="flex justify-center mt-10 lg:mt-20">
-          <a target="_blank" href="https://github.com/kevinecifuentes" className="p-6 border-2 border-[#7066e0] md:hover:border-[#5221e6] duration-200 ease-in">VIEW ALL PROJECTS</a>
+          <a target="_blank" href="https://github.com/kevinecifuentes" className="p-6 border-2 border-[#7510f7] md:hover:border-[#292731f7] duration-200 ease-in">VIEW ALL PROJECTS</a>
         </div>
       </section>
 

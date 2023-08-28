@@ -6,17 +6,19 @@ const Lenguages = () => {
         <span><i className='text-blue-600 bx bxl-css3 hover:animate-spin' ></i></span>
       </div>
       <div className="grid place-content-center">
-        <span><i className='text-orange-500 bx bxl-html5 hover:animate-spin' ></i></span>
+        <span><i className='text-yellow-500 bx bxl-javascript hover:animate-spin'></i></span>
       </div>
+
       <div className="grid place-content-center">
         <span><i className='text-[#149eca] bx bxl-react hover:animate-spin'></i></span>
       </div>
       <div className="grid place-content-center">
-        <span><i className='text-orange-600 bx bxl-git hover:animate-spin'></i></span>
+        <span><i className='text-[#2496ee] bx bxl-docker hover:animate-spin' ></i></span>
       </div>
       <div className="grid place-content-center">
-        <span><i className='text-yellow-500 bx bxl-javascript hover:animate-spin'></i></span>
+        <span><i className='text-green-600 bx bxl-nodejs hover:animate-spin'></i></span>
       </div>
+
       <div className="grid place-content-center">
         <span><i className='text-[#38bdf8] bx bxl-tailwind-css hover:animate-spin'></i></span>
       </div>

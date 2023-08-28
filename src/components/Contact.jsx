@@ -30,7 +30,7 @@ const Contact = () => {
       {/* left section  */}
       <article className='my-auto mx-auto'>
         <h2 className="text-4xl font-bold">Let's talk business</h2>
-        <p className="pt-8 text-gray-400">If you want contact with me or have any question, let me now and write me in the input!
+        <p className="pt-8 text-gray-400">If you want to contact with me or have any question, let me now and write me in the input!
         </p>
 
         <p className='mt-14 text-center text-gray-400'>Or contact with me in WhatsApp.</p>
@@ -56,7 +56,7 @@ const Contact = () => {
             <label>Message <span className='text-red-500'>*</span></label>
             <textarea required name="message" className='bg-[#181823] p-4 outline-none mt-4 rounded-xl w-full' />
           </div>
-          <button className='bg-[#7066e0] p-3 mx-auto rounded-lg hover:bg-[#5221e6] duration-200 ease-in'>
+          <button className='bg-[#7510f7] p-3 mx-auto rounded-lg hover:bg-[#5221e6] duration-200 ease-in'>
             <input type="submit" value="Send" />
           </button>
 

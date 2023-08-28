@@ -41,7 +41,7 @@ const Nav = () => {
         <ul className={`md:flex md:items-center md:pb-0 absolute md:static md:z-auto z-[-1] left-0 bg-black/90 w-full md:w-auto transition-all duration-[350ms] ease-in pl-6 md:pl-0 ${menu ? 'top-16 opacity-100' : 'top-[-490px]'} md:opacity-100 opacity-0`}>
           {LINKS.map((link) => (
             <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7">
-              <a onClick={handleClickMenu} href={link.link} className="text-gray-400 duration-500 md:text-gray-300 lg:hover:bg-[#7066e0] lg:duration-200 ease-in-out lg:rounded-md md:p-1 lg:p-4">{link.name}</a>
+              <a onClick={handleClickMenu} href={link.link} className="text-gray-400 duration-500 md:text-gray-300 lg:hover:bg-[#7510f7] lg:duration-200 ease-in-out lg:rounded-md md:p-1 lg:p-4">{link.name}</a>
             </li>
           ))}
         </ul>

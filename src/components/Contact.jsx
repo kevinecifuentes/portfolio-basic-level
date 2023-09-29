@@ -33,7 +33,12 @@ const Contact = () => {
         <p className="pt-8 text-gray-400">If you want to contact with me or have any question, let me now and write me in the input!
         </p>
 
-        <p className='mt-14 text-center text-gray-400'>Or contact with me in WhatsApp.</p>
+        <div className='pt-8'>
+          <p className='text-gray-200'>Send me an email to: <a className='text-gray-400 hover:text-white ease-out' href='mailto:kevinecifuentes@hotmail.com'>kevinecifuentes@hotmail.com</a></p>
+
+        </div>
+
+        <p className='mt-10 text-center text-gray-400'>Or contact with me in WhatsApp:</p>
 
         <div className='flex justify-center pt-10 gap-1'>
           <a target='_blank' href='https://api.whatsapp.com/send?phone=573507189563' className='text-[#25d366] text-center text-5xl md:hover:text-green-600 ease-in duration-150'><i className='bx bxl-whatsapp'></i></a>

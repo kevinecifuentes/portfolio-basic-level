@@ -26,8 +26,9 @@ const Hero = () => {
             Hello! Welcome to my portfolio. I'm 21 years old and I have kwnowings in frontend (Javascript) and backend (NodeJs) development. Also, I've knowings in librarys and frameworks like ReactJS, ExpressJS and Tailwind. Here, you can find my projects.
           </p>
 
-          <div className='mx-auto pb-4'>
-            <a className='py-3 px-0 w-36 bg-[#7510f7] rounded-xl md:hover:bg-[#5221e6] duration-200 ease-in flex justify-center gap-1' href="/CV-Kevin.pdf" download='CV-Kevin.pdf'><span>Download CV</span> <span className='pt-[1px]'><i className='bx bxs-spreadsheet text-gray-300 text-xs md:text-sm'></i></span></a>
+          <div className='mx-auto pb-4 flex flex-col gap-4 md:flex-row md:gap-8'>
+            <a className='py-3 px-0 w-36 bg-[#5221e6] rounded-xl md:hover:bg-[black] duration-200 ease-in flex justify-center gap-1' href="/CV-Kevin-English.pdf" download='CV-Kevin-English.pdf'><span>Download CV</span> <span className='pt-[1px]'><i className='bx bxs-spreadsheet text-gray-300 text-xs md:text-sm'></i></span></a>
+            <a className='py-3 px-0 w-36 bg-[black] rounded-xl md:hover:bg-[#5221e6] duration-200 ease-in flex justify-center gap-1' href="/CV-Kevin.pdf" download='CV-Kevin.pdf'><span>Descargar CV</span> <span className='pt-[1px]'><i className='bx bxs-spreadsheet text-gray-300 text-xs md:text-sm'></i></span></a>
           </div>
         </div>
       </article>
